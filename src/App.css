@@ -1,18 +1,16 @@
-.App {
-  text-align: center;
+body {
+  background: #f2f2f2;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Harry P';
+  src: url('./assets/fonts/HarryP.eot');
+  src: url('./assets/fonts/HarryP.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/HarryP.woff2') format('woff2'),
+    url('./assets/fonts/HarryP.woff') format('woff'),
+    url('./assets/fonts/HarryP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +22,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

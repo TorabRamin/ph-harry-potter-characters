@@ -1,0 +1,11 @@
+.MuiCardContent-root {
+  padding-bottom: 0 !important;
+}
+.MuiCardContent-root ul {
+  text-align: left;
+  margin: 0px;
+}
+.MuiCardContent-root ul li {
+  line-height: 25px;
+  list-style: none;
+}
