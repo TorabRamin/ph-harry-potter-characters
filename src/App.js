@@ -47,7 +47,7 @@ function App() {
   }
 
   useEffect(() => {
-    setFev(JSON.parse(localStorage.getItem("favorites")))
+    setFev(JSON.parse(localStorage.getItem("favorites"))||[])
     fetch('https://hp-api.herokuapp.com/api/characters')
       .then(res => res.json())
       .then(characters => setCharacters(characters.map((singleCh, index) => {
